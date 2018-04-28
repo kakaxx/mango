@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mango:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="mango.war">
+      <element id="artifact" artifact-name="mango:war exploded" />
+    </root>
+  </artifact>
+</component>
