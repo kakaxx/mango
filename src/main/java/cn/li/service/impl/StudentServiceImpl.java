@@ -23,7 +23,7 @@ public class StudentServiceImpl implements StudentService{
             //Map<String,Object> allData = JSON.parseObject(result,Map.class);
             JSONObject jsonObject = JSON.parseObject(result);
             if(jsonObject.getInteger("status") != 200 || result == null){//请求失败
-                return new ResponseData(-1,"网络请求异常");
+                return new ResponseData(-2,"网络请求异常");
             }else {
                 //Map<String,Object> temp = JSON.parseObject(allData.get("data").toString(),Map.class);
                 //Map<String,String> data = JSON.parseObject(temp.get("rows").toString(),Map.class);
